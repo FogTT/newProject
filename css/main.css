@@ -70,8 +70,20 @@
 /* main */
 
 .main {
+    padding-top: 51px;
     width: 1100px;
     background-color: aqua;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 25px;
+    margin-bottom: 70px;
+  
 }
 
 /* search */
@@ -97,6 +109,74 @@
     flex-grow: 1;
     font-size: 17px;
     font-weight: 500;
+    font-family: sans-serif;
+}
 
+.search-input::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+/* Nav header*/
+
+.nav-header {
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+
+.nav-header-list {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-header-link-text {
+    position: relative;
+}
+
+.nav-header-link-text::after {
+    position: absolute;
+    left: 0;
+    width: 0;
+    bottom: -9px;
+
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: black;
+
+    transition: 0.2s ease-in;
+}
+
+.nav-header-link-text:hover::after {
+    width: 100%;
+}
+
+
+.nav-header-link-text.active::after {
+    position: absolute;
+    left: 0;
+   width: 100%;
+    bottom: -9px;
+
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: black;
+    
+
+}
+
+.nav-header-link-text + .nav-header-link-text {
+    margin-left: 42px;
+}
+.nav-header-link-text + .nav-header-link-icon {
+    margin-left: 50px;
+}
+
+.nav-header-link-icon + .nav-header-link-icon {
+
+    margin-left: 25px;
 }
 
