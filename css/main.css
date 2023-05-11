@@ -180,3 +180,31 @@
     margin-left: 25px;
 }
 
+.cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.cards-wrapper-row {
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.cards-wrapper-col {
+    
+}
+
+
+.col-horizontal {
+    display: flex;
+    column-gap: 20px;
+}
+
+.col-vertical {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
