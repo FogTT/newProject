@@ -1,0 +1,102 @@
+/* sidebar */
+.sidebar {
+    width: 253px;
+    height: 100%;
+    padding: 51px 15px 60px 57px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    background-color: rgb(200, 210, 218);
+}
+
+.sidebar-logo {
+    margin-bottom: 57px;
+}
+
+.sidebar-help {
+    margin-top: auto;
+}
+
+/* Nav */
+
+.nav {
+
+}
+
+.nav-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 44px;
+
+}
+
+.nav-list{
+    font-size: 16px;
+}
+
+.nav-list li {
+    margin-bottom: 27px;
+}
+
+.nav-list a {
+    transition: color 0.2s ease-in;
+}
+
+.nav-list a:hover {
+    color: #fd2e24;  
+}
+
+.nav-list img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Help */
+
+.help {
+    font-size: 15.7px;
+
+}
+
+.help-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+/* main */
+
+.main {
+    width: 1100px;
+    background-color: aqua;
+}
+
+/* search */
+
+.search {
+    width: 490px;
+    height: 44px;
+}
+
+.search-label {
+    height: 100%;
+    display: flex;
+   
+}
+
+.search-icon {
+
+}
+
+
+.search-input {
+    padding: 0 17px ;
+    flex-grow: 1;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
